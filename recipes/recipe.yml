@@ -22,13 +22,13 @@ modules:
       files:
         - https://repo.librewolf.net/librewolf.repo
       copr:
-        - xabi08/MSI-EC
+        # - xabi08/MSI-EC
         - sunwire/envycontrol
         - faugus/faugus-launcher
     install:
       packages:
         - librewolf
-        - kmod-msi-ec
+        # - kmod-msi-ec
         - python3-envycontrol
         - faugus-launcher
         - syncthing # Remember to enable the service

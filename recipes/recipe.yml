@@ -54,7 +54,11 @@ modules:
       - netbird.repo
     install:
       - netbird # Remember to run 'sudo netbird service install' then enable the service
-  
+
+  - type: script
+    scripts:
+      - build-msi-ec.sh
+    
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)

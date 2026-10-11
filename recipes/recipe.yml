@@ -19,15 +19,24 @@ modules:
 
   - type: dnf
     repos:
+      files:
+        - https://repo.librewolf.net/librewolf.repo
       copr:
-        - imput/helium
+        - xabi08/MSI-EC
+        - sunwire/envycontrol
+        - faugus/faugus-launcher
     install:
       packages:
-        - helium-bin
+        - librewolf
+        - kmod-msi-ec
+        - python3-envycontrol
+        - faugus-launcher
         - syncthing # Remember to enable the service
         - lm_sensors
         - fish
         - steam
+        - gamemode
+        - mangohud
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -57,8 +66,16 @@ modules:
           - org.gnome.Extensions
           - io.missioncenter.MissionCenter
           - io.github.kolunmi.Bazaar
+          - com.github.tchx84.Flatseal
           - net.codelogistics.webapps
           - com.discordapp.Discord
+          - org.gnome.Boxes
+          - org.bunkus.mkvtoolnix-gui
+          - it.mijorus.gearlever
+          - com.vysp3r.ProtonPlus
+          - com.github.mtkennerly.ludusavi
+          - org.vinegarhq.Sober
+          - org.prismlauncher.PrismLauncher
           
   - type: gnome-extensions
     install:

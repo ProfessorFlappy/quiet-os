@@ -69,7 +69,7 @@ modules:
           - io.missioncenter.MissionCenter
           - io.github.kolunmi.Bazaar
           - com.github.tchx84.Flatseal
-          - net.codelogistics.webapps
+          - org.pvermeer.WebAppHub
           - com.discordapp.Discord
           - org.gnome.Boxes
           - org.bunkus.mkvtoolnix-gui
@@ -78,6 +78,7 @@ modules:
           - com.github.mtkennerly.ludusavi
           - org.vinegarhq.Sober
           - org.prismlauncher.PrismLauncher
+          - org.jellyfin.JellyfinDesktop
           
   - type: gnome-extensions
     install:

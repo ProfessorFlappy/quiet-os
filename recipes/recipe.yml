@@ -72,6 +72,7 @@ modules:
           - org.gnome.Papers
           - org.gnome.Showtime
           - org.gnome.Decibels
+          - io.github.shonebinu.Brief
           - io.missioncenter.MissionCenter
           - io.github.kolunmi.Bazaar
           - com.github.tchx84.Flatseal
